@@ -1,0 +1,7 @@
+[wrap-file]
+directory = freedom-e-sdk-v20.05.01.00
+source_url = https://github.com/sifive/freedom-e-sdk/archive/refs/tags/v20.05.01.00.tar.gz
+source_filename = freedom-e-sdk-v20.05.01.00.tar.gz
+source_hash = 56d3046685c80024bf4aba8d890469ea1a14567b1dcce5b56310ce06eacdac0d
+patch_directory = freedom-e-sdk
+

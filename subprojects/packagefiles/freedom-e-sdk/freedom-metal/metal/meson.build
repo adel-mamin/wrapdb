@@ -1,0 +1,37 @@
+install_headers(
+    files(
+        'time.h',
+        'pmp.h',
+        'privilege.h',
+        'pwm.h',
+        'rtc.h',
+        'scrub.h',
+        'shutdown.h',
+        'spi.h',
+        'switch.h',
+        'timer.h',
+        'tty.h',
+        'uart.h',
+        'watchdog.h',
+        'atomic.h',
+        'button.h',
+        'cache.h',
+        'clock.h',
+        'compiler.h',
+        'cpu.h',
+        'csr.h',
+        'gpio.h',
+        'hpm.h',
+        'i2c.h',
+        'init.h',
+        'interrupt.h',
+        'io.h',
+        'itim.h',
+        'led.h',
+        'lock.h',
+        'memory.h'
+    ),
+    join_paths(install_incdir, 'metal')
+)
+
+subdir('drivers')

@@ -1,0 +1,6 @@
+option('bspdir', type : 'string', value : 'qemu-sifive-e31', yield : true)
+option('MTIME_CTRL_ADDR', type : 'integer', value : -1, yield : true)
+option('MTIME_RATE_HZ', type : 'integer', value : 32768, yield : true)
+option('HANDLE_INTERRUPT', type : 'string', value : 'FreedomMetal_InterruptHandler', yield : true)
+option('HANDLE_EXCEPTION', type : 'string', value : 'FreedomMetal_ExceptionHandler', yield : true)
+option('USING_MPU_WRAPPERS', type : 'feature', value : disabled, yield : true)
